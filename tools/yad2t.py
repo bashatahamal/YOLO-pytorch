@@ -8,7 +8,7 @@ import torch
 import numpy as np
 from collections import defaultdict
 
-sys.path.append('..')
+sys.path.append('../')
 from network.yolo import yolo
 
 
