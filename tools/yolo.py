@@ -2,8 +2,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from network.prior import PriorBox
-from network.detect import Detect
+# from network.prior import PriorBox
+# from network.detect import Detect
+import prior
+import detect
 
 
 # module1: conv+bn+leaky_relu
