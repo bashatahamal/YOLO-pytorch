@@ -8,9 +8,9 @@ import torch
 import numpy as np
 from collections import defaultdict
 
-import yolo
+# import yolo
 # sys.path.append('../')
-# from network.yolo import yolo
+from network.yolo import yolo
 
 
 # exchange the [xxx] name to [xxx_num] form
